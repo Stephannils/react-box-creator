@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import BoxList from './BoxList';
 
 class App extends Component {
-	render() {
-		return (
-			<div>
-				
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <BoxList />
+      </div>
+    );
+  }
 }
 
-export default App;			
-      
+export default App;
